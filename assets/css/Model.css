@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("../png/modeljs2.png");
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a183bd7;
+    margin-top: 3px;
+    border-radius: 7px 7px 0px 0px;
+    width: 90vw;
+    margin: auto;
+}
+
+header>h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 3px;
+    text-shadow: #c5a898 1px 1px 10px;
+    margin-top: 17px;
+}
+
+p {
+    font-size: 3vh;
+    font-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu {
+    display: block;
+    background-color: #21203f89;
+    text-align: center;
+    list-style-type: none;
+    width: 90vw;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+menu>ul {
+    list-style-type: none;
+    background-color: #802121aa;
+    text-decoration: none;
+}
+
+
+menu>ul>li>a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(115, 47, 47, 0.537);
+    border-radius: 0px 0px 0px 0px;
+    color: whitesmoke;
+    margin: auto;
+}
+
+main {
+    background-color: #ab9968ce;
+    width: 90vw;
+    margin: auto;
+    border-radius: 0px 0px 0px 0px;
+    padding: 3px;
+}
+
+article>h2 {
+    margin-left: 5vh;
+    margin-top: 2vh;
+    font-size: 5vh;
+    font-style: oblique;
+    color: black;
+}
+
+article>p {
+    text-align: justify;
+    margin-bottom: 17px;
+    text-indent: 17px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.container img {
+    max-width: 30vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    margin-bottom: auto;
+}
+
+.container p {
+    flex: 1;
+    margin-right: 5vh;
+    font-family: cursive;
+    font-size: 2.5vh;
+}
+
+.text p {
+    flex: 1;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 3vh;
+    font-family: cursive;
+    font-size: 2.5vh;
+}
+
+footer {
+    background-color: #ab9968ce;
+    border-radius: 0px 0px 7px 7px;
+    width: 90vw;
+    padding: 7px;
+    margin: auto;
+    text-align: center;
+}
+
+footer>p {
+    width: 90vw;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+#iconav {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
