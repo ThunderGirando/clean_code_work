@@ -11,6 +11,21 @@ html {
     height: 100vh;
 }
 
+#burger {
+    background-color: #21203f89;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    width: 90vw;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: #c5a898;
+}
+
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,21 +61,19 @@ p {
 }
 
 menu {
-    display: block;
+    display: none;
     background-color: #21203f89;
     text-align: center;
     list-style-type: none;
     width: 90vw;
     margin: auto;
     color: white;
-    text-decoration: none;
     font-size: 2vh;
 }
 
 menu>ul {
     list-style-type: none;
     background-color: #21203f89;
-    text-decoration: none;
 }
 
 
@@ -73,6 +86,12 @@ menu>ul>li>a {
     border-radius: 0px 0px 0px 0px;
     color: whitesmoke;
     margin: auto;
+}
+
+menu>ul>li>a:hover {
+    background-color: #484768;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 main {
@@ -90,7 +109,7 @@ article>h2 {
     font-size: 5vh;
     font-style: none;
     color: rgba(0, 0, 0, 0.877);
-    
+
 }
 
 article>p {
@@ -137,7 +156,7 @@ footer {
     border-radius: 0px 0px 7px 7px;
     width: 90vw;
     margin: auto;
-    
+
 }
 
 footer>p {
@@ -148,8 +167,9 @@ footer>p {
 }
 
 #iconav {
-    width: 25px;
-    height: 25px;
-    margin-left: auto;
-    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 1vh;
+    margin-bottom: -0.5vh;
+
 }
