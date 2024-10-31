@@ -143,6 +143,12 @@ img {
     font-size: 2.5vh;
 }
 
+.text {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
+
 .text p {
     flex: 1;
     margin-left: 5vh;
@@ -151,8 +157,12 @@ img {
     font-family: cursive;
     font-size: 2.5vh;
 }
-.text img{
-    max-width: 10vh;
+
+.text img {
+    max-width: 30vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    margin-bottom: auto;
 }
 
 footer {
