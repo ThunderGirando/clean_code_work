@@ -61,7 +61,7 @@ p {
 }
 
 menu {
-    display: none;
+    display: block;
     background-color: #21203f89;
     text-align: center;
     list-style-type: none;
@@ -91,7 +91,7 @@ menu>ul>li>a {
 }
 
 menu>ul>li>a:hover {
-    background-color: #484768;
+    background-color: #3f0000;
     color: whitesmoke;
     text-decoration: none;
 }

@@ -61,7 +61,7 @@ p {
 }
 
 menu {
-    display: none;
+    display: block;
     background-color: #21203f89;
     text-align: center;
     list-style-type: none;
